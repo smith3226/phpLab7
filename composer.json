@@ -1,0 +1,15 @@
+{
+    "name": "smith/logging-lab",
+    "description": "Application loggin with monolog",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "2.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smith\\LoggingLab\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
