@@ -1,0 +1,17 @@
+{
+    "name": "smith/app-log",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Smith Dias",
+            "email": "smithdias3226@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.9"
+    }
+}
